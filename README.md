@@ -1,5 +1,5 @@
-<p> <img src="https://komarev.com/ghpvc/?username=Devaaldo&label=Profile%20views&color=0e75b6&style=flat" alt="Devaaldo" /> </p>
 # Hello Everyone! 
+<p> <img src="https://komarev.com/ghpvc/?username=Devaaldo&label=Profile%20views&color=0e75b6&style=flat" alt="Devaaldo" /> </p>
 
 Introduce my name is **Muhammad Akbar Pradana**.<br>
 You can call me **Akbar** or **Devaaldo**
