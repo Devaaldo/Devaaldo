@@ -22,11 +22,4 @@ If you're interested in getting to know me, please follow me on [Linkedin](https
 <p> <img alt="Stats2" src="https://github-readme-streak-stats.herokuapp.com/?user=Devaaldo&theme=dracula" /> </p>
 <p> <img alt="Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Devaaldo&layout=compact&langs_count=10&show_icons=true&theme=dracula" /> </p>
 
-
-[![Discord Presence](https://lanyard-profile-readme.vercel.app/api/619892255355830292?theme=light&bg=809ecf&animated=false&hideDiscrim=true&borderRadius=30px&idleMessage=Probably%20doing%20something%20else...)](https://discord.com/users/619892255355830292)
-
-[![Discord Presence](https://lanyard.cnrad.dev/api/619892255355830292)](https://discord.com/users/619892255355830292)
-
-
-
-<a href="https://discord.com/users/619892255355830292"><img src="https://lanyard.cnrad.dev/api/6619892255355830292?borderRadius=20px&bg=00000000" alt="Discord" /></a>
+[![Discord Presence](https://lanyard.cnrad.dev/api/619892255355830292?borderRadius=20px&bg=00000000&idleMessage=Probably%20doing%20something%20else...)](https://discord.com/users/619892255355830292)
