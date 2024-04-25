@@ -1,6 +1,7 @@
 # Hello Everyone! 
 
 Introduce my name is **Muhammad Akbar Pradana**.<br>
+You can call me **Akbar** or **Devaaldo**
 
 I'm an **Undergraduate Informatics Student** in **Jenderal Achmad Yani University of Yogyakarta**.<br>
 
