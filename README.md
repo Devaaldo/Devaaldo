@@ -21,4 +21,4 @@ If you're interested in getting to know me, please follow me on [Linkedin](https
 <p> <img alt="Stats" src="https://github-readme-stats.vercel.app/api?username=Devaaldo&count_private=true&show_icons=true&show_icons=true&theme=dracula" /> </p>
 <p> <img alt="Stats2" src="https://github-readme-streak-stats.herokuapp.com/?user=Devaaldo&theme=dracula" /> </p>
 <p> <img alt="Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Devaaldo&layout=compact&langs_count=10&show_icons=true&theme=dracula" /> </p>
-<a href="https://discord.com/users/619892255355830292"><img src="https://lanyard.cnrad.dev/api/619892255355830292?borderRadius=20px&bg=00000000" alt="Discord" /></a>
+<a href="https://discordapp.com/users/619892255355830292"><img src="https://lanyard.cnrad.dev/api/619892255355830292?borderRadius=20px&bg=00000000" alt="Discord" /></a>
