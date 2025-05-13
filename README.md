@@ -15,6 +15,7 @@ If you're interested in getting to know me, please follow me on [Linkedin](https
 <a href="https://github.com/devaaldo">
   <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=devaaldo&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
   <img alt="Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Devaaldo&layout=compact&langs_count=10&show_icons=true&theme=algolia" />
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Devaaldo&show_icons=true&theme=blue-green&include_all_commits=true&count_private=true"/>
 </a>
 </p>
 <p> <img alt="Stats2" src="https://github-readme-streak-stats.herokuapp.com/?user=Devaaldo&theme=algolia" /> </p>
