@@ -17,13 +17,15 @@ If you're interested in getting to know me, please follow me on [Linkedin](https
          <img alt="total stars" title="Total stars on GitHub" src="https://custom-icon-badges.demolab.com/github/stars/Devaaldo?color=55960c&style=for-the-badge&labelColor=488207&logo=star"/></a>
    </p>
 
+---
+
 ### Github Statistic
 <p align="left">
 <a href="https://github.com/devaaldo">
-  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Devaaldo&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
-  <img alt="Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Devaaldo&layout=compact&langs_count=10&show_icons=true&theme=algolia" />
+<p><img align="left" height="200em" src="https://github-readme-stats.vercel.app/api/top-langs?username=Devaaldo&show_icons=true&locale=en&layout=compact&theme=algolia" alt="Devaaldo-Rank" /></p>
+<p><img align="left" height = "200em" src="https://github-readme-stats.vercel.app/api?username=Devaaldo&show_icons=true&theme=algolia" alt="Devaaldo-Language" /></p>
+<p> <img align="mid" height ="200em" alt="Streak-Devaaldo" src="https://github-readme-streak-stats.herokuapp.com/?user=Devaaldo&theme=algolia" /> </p>
 </a>
 </p>
-<p> <img alt="Stats2" src="https://github-readme-streak-stats.herokuapp.com/?user=Devaaldo&theme=algolia" /> </p>
 
 [![Discord Presence](https://lanyard.cnrad.dev/api/619892255355830292?borderRadius=20px&bg=00000000&idleMessage=Probably%20doing%20something%20else...)](https://discord.com/users/619892255355830292)
