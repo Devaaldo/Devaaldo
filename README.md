@@ -23,7 +23,6 @@ If you're interested in getting to know me, please follow me on [Linkedin](https
 <p align="left">
 <a href="https://github.com/devaaldo">
 <p><img align="left" height="200em" src="https://github-readme-stats.vercel.app/api/top-langs?username=Devaaldo&show_icons=true&locale=en&layout=compact&theme=algolia" alt="Devaaldo-Rank" /></p>
-<p><img align="left" height = "200em" src="https://github-readme-stats.vercel.app/api?username=Devaaldo&show_icons=true&theme=algolia" alt="Devaaldo-Language" /></p>
 <p> <img align="mid" height ="200em" alt="Streak-Devaaldo" src="https://github-readme-streak-stats.herokuapp.com/?user=Devaaldo&theme=algolia" /> </p>
 </a>
 </p>
