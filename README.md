@@ -27,4 +27,6 @@ If you're interested in getting to know me, please follow me on [Linkedin](https
 </a>
 </p>
 
+<p>
 [![Discord Presence](https://lanyard.cnrad.dev/api/619892255355830292?borderRadius=20px&bg=00000000&idleMessage=Probably%20doing%20something%20else...)](https://discord.com/users/619892255355830292)
+</p>
