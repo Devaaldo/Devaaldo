@@ -1,6 +1,8 @@
 # Hello Everyone! 👨‍💻
 
+<div>
 <p> <img src="https://komarev.com/ghpvc/?username=Devaaldo&label=Profile%20views&color=0e75b6&style=flat" alt="Devaaldo" /> </p>
+<img src="https://user-images.githubusercontent.com/22107794/139580686-887df369-edb8-4bc8-b607-4fbf6d7e4866.gif">
 
 Introduce my name is **Muhammad Akbar Pradana**.<br>
 You can call me **Akbar** or **Devaaldo**
@@ -15,7 +17,13 @@ If you're interested in getting to know me, please follow me on [Linkedin](https
          <img alt="followers" title="Follow me on Github" src="https://custom-icon-badges.demolab.com/github/followers/Devaaldo?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/></a>
       <a href="https://github.com/Devaaldo?tab=repositories&sort=stargazers">
          <img alt="total stars" title="Total stars on GitHub" src="https://custom-icon-badges.demolab.com/github/stars/Devaaldo?color=55960c&style=for-the-badge&labelColor=488207&logo=star"/></a>
-   </p>
+</p>
+</div>
+<br>
+
+![snake gif](https://github.com/devaaldo/devaaldo/blob/output/github-contribution-grid-snake-dark.svg)
+
+<br>
 
 ---
 
@@ -26,7 +34,7 @@ If you're interested in getting to know me, please follow me on [Linkedin](https
 <p> <img align="mid" height ="200em" alt="Streak-Devaaldo" src="https://github-readme-streak-stats.herokuapp.com/?user=Devaaldo&theme=algolia" /> </p>
 </a>
 </p>
-
+<br>
 
 [![Discord Presence](https://lanyard.cnrad.dev/api/619892255355830292?borderRadius=20px&bg=00000000&idleMessage=Probably%20doing%20something%20else...)](https://discord.com/users/619892255355830292)
 
