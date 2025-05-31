@@ -1,4 +1,4 @@
-# 👋 Hello World! I'm Muhammad Akbar Pradana
+# 👋 Hello World! I'm Akbar Pradana
 
 <div align="center">
   
