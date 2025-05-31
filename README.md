@@ -22,7 +22,7 @@ class Developer:
         self.location = "Yogyakarta, Indonesia"
         self.education = "Undergraduate Informatics Student"
         self.university = "Jenderal Achmad Yani University of Yogyakarta"
-        self.interests = ["Backend Development", "Data Science", "Problem Solving"]
+        self.interests = ["Backend Development", "Data Science", "AI Engginer", "Problem Solving"]
         self.learning_philosophy = "Always curious, always growing"
     
     def current_focus(self):
