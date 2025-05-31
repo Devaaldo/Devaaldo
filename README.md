@@ -29,7 +29,7 @@ class Developer:
         return ["Web Development", "Data Analysis", "Algorithm Optimization"]
     
     def life_motto(self):
-        return "Code with passion, learn with purpose! 💡"
+        return "Don't wait to be chosen, be the chosen one."
 
 me = Developer()
 print(me.life_motto())
