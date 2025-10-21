@@ -2,7 +2,7 @@
 
 <div align="center">
   
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Backend+Developer;Data+Science+Enthusiast;AI+Enthusiast;Problem+Solver;Continuous+Learner)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=AI+Engineer;Backend+Developer;Machine+Learning+Enthusiast;Problem+Solver;Continuous+Learner)](https://git.io/typing-svg)
 
 </div>
 
@@ -22,11 +22,11 @@ class Developer:
         self.location = "Yogyakarta, Indonesia"
         self.education = "Undergraduate Informatics Student"
         self.university = "Jenderal Achmad Yani University of Yogyakarta"
-        self.interests = ["Backend Development", "Data Science", "AI Engineer", "Problem Solving"]
+        self.interests = ["AI Engineering", "Backend Development", "Machine Learning", "Problem Solving"]
         self.learning_philosophy = "Always curious, always growing"
-    
+
     def current_focus(self):
-        return ["Fullstack AI", "Algorithm Optimization"]
+        return ["AI Engineering", "Backend Development", "LLM Applications", "Scalable Systems"]
     
     def life_motto(self):
         return "Don't wait to be chosen, be the chosen one."
@@ -61,11 +61,18 @@ print(me.life_motto())
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
+### 🤖 AI & Machine Learning
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![LangChain](https://img.shields.io/badge/LangChain-121212?style=for-the-badge&logo=chainlink&logoColor=white)
+
 ### 📊 Data Science & Analytics
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white)
 
 ### ☁️ Cloud & DevOps
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
@@ -147,11 +154,11 @@ C++          ████░░░░░░░░░░░   30%
 
 ## 🎯 Current Goals
 
-- 🔭 **Currently working on:** Building scalable backend systems
-- 🌱 **Currently learning:** Advanced Data Science techniques and Cloud Architecture
-- 👯 **Looking to collaborate on:** Open source projects and innovative web applications
-- 🤔 **Looking for help with:** Machine Learning optimization
-- 💬 **Ask me about:** Backend development, Data analysis, Problem solving
+- 🔭 **Currently working on:** AI-powered applications and scalable backend systems
+- 🌱 **Currently learning:** Advanced AI/ML techniques, LLM fine-tuning, and Cloud Architecture
+- 👯 **Looking to collaborate on:** AI projects, open source backend systems, and ML applications
+- 🤔 **Looking for help with:** Large Language Model optimization and deployment
+- 💬 **Ask me about:** AI Engineering, Backend development, Machine Learning, API design
 - ⚡ **Fun fact:** I can debug code faster with coffee! ☕
 
 ---
