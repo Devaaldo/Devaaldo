@@ -8,37 +8,8 @@
 
 ---
 
-## 📊 GitHub Metrics
-
 <div align="center">
-  <table>
-    <tr>
-      <td rowspan="2">
-        <img src="./metrics.classic.svg" alt="Classic Metrics" />
-      </td>
-      <td>
-        <img src="./metrics.plugin.isocalendar.fullyear.svg" alt="Full Year Calendar" />
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <img src="./metrics.plugin.languages.svg" alt="Most Used Languages" />
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <img src="./metrics.plugin.habits.svg" alt="Coding Habits" />
-      </td>
-      <td>
-        <img src="./metrics.plugin.achievements.svg" alt="Achievements" />
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2">
-        <img src="./metrics.plugin.notable.svg" alt="Notable Contributions" />
-      </td>
-    </tr>
-  </table>
+  <img src="https://user-images.githubusercontent.com/22107794/139580686-887df369-edb8-4bc8-b607-4fbf6d7e4866.gif" width="400"/>
 </div>
 
 ---
@@ -130,6 +101,39 @@ print(me.life_motto())
 ---
 
 ## 📈 GitHub Analytics
+
+<!--
+OPTIONAL: Advanced GitHub Metrics (requires setup - see METRICS_SETUP.md)
+Uncomment the section below after setting up GitHub Actions workflow
+
+<div align="center">
+  <table>
+    <tr>
+      <td rowspan="2">
+        <img src="./metrics.classic.svg" alt="Classic Metrics" />
+      </td>
+      <td>
+        <img src="./metrics.plugin.isocalendar.fullyear.svg" alt="Full Year Calendar" />
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="./metrics.plugin.languages.svg" alt="Most Used Languages" />
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="./metrics.plugin.habits.svg" alt="Coding Habits" />
+      </td>
+      <td>
+        <img src="./metrics.plugin.achievements.svg" alt="Achievements" />
+      </td>
+    </tr>
+  </table>
+</div>
+
+OR use the simple stats below (current setup):
+-->
 
 <div align="center">
   <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Devaaldo&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
