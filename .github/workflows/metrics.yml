@@ -1,0 +1,133 @@
+name: GitHub Metrics
+on:
+  schedule:
+    - cron: "0 0 * * *" # Runs daily at midnight
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      # Classic metrics
+      - name: Classic
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.classic.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: header, activity, community, repositories, metadata
+          plugin_lines: yes
+          plugin_lines_history_limit: 1
+          plugin_lines_repositories_limit: 4
+          plugin_lines_sections: base
+          config_timezone: Asia/Jakarta
+
+      # Isocalendar (Full year calendar)
+      - name: Full-year calendar
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.isocalendar.fullyear.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          config_timezone: Asia/Jakarta
+
+      # Language activity
+      - name: Most used languages
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.languages.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_languages: yes
+          plugin_languages_ignored: html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell, gnuplot
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_sections: most-used
+          plugin_languages_colors: github
+          plugin_languages_limit: 8
+          config_timezone: Asia/Jakarta
+
+      # Notable contributions
+      - name: Notable contributions
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.notable.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_notable: yes
+          plugin_notable_repositories: yes
+          plugin_notable_indepth: yes
+          config_timezone: Asia/Jakarta
+
+      # Achievements
+      - name: Achievements
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.achievements.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_achievements: yes
+          plugin_achievements_display: detailed
+          plugin_achievements_secrets: yes
+          plugin_achievements_threshold: C
+          config_timezone: Asia/Jakarta
+
+      # Habits (coding habits)
+      - name: Coding habits
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.habits.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_habits: yes
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+          plugin_habits_days: 14
+          plugin_habits_from: 200
+          config_timezone: Asia/Jakarta
+
+      # Recent activity
+      - name: Recent activity
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.activity.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_activity: yes
+          plugin_activity_limit: 5
+          plugin_activity_days: 14
+          plugin_activity_filter: all
+          plugin_activity_visibility: all
+          config_timezone: Asia/Jakarta
+
+      # Code snippet of the day
+      - name: Code snippet
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.code.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_code: yes
+          plugin_code_languages: python, javascript, typescript, php
+          plugin_code_load: 400
+          config_timezone: Asia/Jakarta
+
+      # WakaTime (if you use WakaTime)
+      # Uncomment and add WAKATIME_TOKEN to your secrets
+      # - name: WakaTime
+      #   uses: lowlighter/metrics@latest
+      #   with:
+      #     filename: metrics.plugin.wakatime.svg
+      #     token: ${{ secrets.METRICS_TOKEN }}
+      #     base: ""
+      #     plugin_wakatime: yes
+      #     plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
+      #     plugin_wakatime_days: 7
+      #     plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
+      #     config_timezone: Asia/Jakarta

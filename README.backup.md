@@ -1,44 +1,13 @@
 # 👋 Hello World! I'm Akbar Pradana
 
 <div align="center">
-
+  
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=AI+Engineer;Backend+Developer;Machine+Learning+Enthusiast;Problem+Solver;Continuous+Learner)](https://git.io/typing-svg)
 
 </div>
 
----
-
-## 📊 GitHub Metrics
-
 <div align="center">
-  <table>
-    <tr>
-      <td rowspan="2">
-        <img src="./metrics.classic.svg" alt="Classic Metrics" />
-      </td>
-      <td>
-        <img src="./metrics.plugin.isocalendar.fullyear.svg" alt="Full Year Calendar" />
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <img src="./metrics.plugin.languages.svg" alt="Most Used Languages" />
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <img src="./metrics.plugin.habits.svg" alt="Coding Habits" />
-      </td>
-      <td>
-        <img src="./metrics.plugin.achievements.svg" alt="Achievements" />
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2">
-        <img src="./metrics.plugin.notable.svg" alt="Notable Contributions" />
-      </td>
-    </tr>
-  </table>
+  <img src="https://user-images.githubusercontent.com/22107794/139580686-887df369-edb8-4bc8-b607-4fbf6d7e4866.gif" width="400"/>
 </div>
 
 ---
@@ -76,9 +45,7 @@ print(me.life_motto())
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 
 ### 🌐 Backend & Frameworks
 
@@ -108,22 +75,12 @@ print(me.life_motto())
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white)
 
-### 🔧 APIs & Microservices
-
-![REST API](https://img.shields.io/badge/REST-02569B?style=for-the-badge&logo=rest&logoColor=white)
-![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
-![gRPC](https://img.shields.io/badge/gRPC-4285F4?style=for-the-badge&logo=google&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
-
 ### ☁️ Cloud & DevOps
 
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
 
 </div>
 
@@ -163,39 +120,13 @@ print(me.life_motto())
 ## 📊 Weekly Development Breakdown
 
 ```text
-🎯 Focus Areas:
-AI/ML Projects        █████████████░░   85%
-Backend Development   ████████████░░░   80%
-API Design            ██████████░░░░░   65%
-Data Engineering      ████████░░░░░░░   55%
-
 💻 Programming Languages:
-Python               █████████████░░   85%
-JavaScript           ████████░░░░░░░   50%
-PHP                  █████░░░░░░░░░░   35%
-C++                  ████░░░░░░░░░░░   30%
+Python       ████████████░░░   75%
+JavaScript   ████████░░░░░░░   50%
+Java         ██████░░░░░░░░░   40%
+PHP          █████░░░░░░░░░░   35%
+C++          ████░░░░░░░░░░░   30%
 ```
-
----
-
-## 🤖 AI Engineering & Backend Expertise
-
-<div align="center">
-
-> *"Building intelligent systems with scalable backend architectures"*
-
-### 🎯 Specialized Skills
-
-| AI Engineering | Backend Development |
-|:---:|:---:|
-| 🧠 Large Language Models (LLMs) | 🔌 RESTful & GraphQL APIs |
-| 🔄 Model Fine-tuning & Training | 🏗️ Microservices Architecture |
-| 📊 Data Pipeline Engineering | 🗄️ Database Design & Optimization |
-| 🤝 AI Integration & Deployment | ⚡ Performance & Scalability |
-| 🔍 NLP & Text Processing | 🔒 Security & Authentication |
-| 📈 ML Model Optimization | ☁️ Cloud Infrastructure (AWS) |
-
-</div>
 
 ---
 
