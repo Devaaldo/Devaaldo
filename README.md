@@ -92,6 +92,7 @@ OR use the simple stats below (current setup):
 ![snake gif](https://github.com/devaaldo/devaaldo/blob/output/github-contribution-grid-snake-dark.svg)
 
 </div>
+
 ---
 
 ## 📫 Let's Connect!
