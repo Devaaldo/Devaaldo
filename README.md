@@ -118,6 +118,13 @@ OR use the simple stats below (current setup):
 
 ---
 
+<h3 align="left"><img width="30" height="30" src="https://www.freepnglogos.com/uploads/discord-logo-png/discord-logo-logodownload-download-logotipos-1.png" alt="Discord Logo"/> Discord Presence</h3>
+
+[![Discord Presence](https://lanyard.cnrad.dev/api/506212044152897546?idleMessage=Maybe%20he%27s%20making%20some%20stuff!)](https://discord.com/users/619892255355830292)
+
+---
+
+
 ## 💰 Support My Work
 
 <div align="center">
