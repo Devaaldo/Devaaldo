@@ -12,10 +12,12 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@latest
+      - name: Classic
+        uses: lowlighter/metrics@latest
         with:
           filename: metrics.classic.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
 
           user: Devaaldo
           template: classic
@@ -35,6 +37,7 @@ jobs:
         with:
           filename: metrics.plugin.isocalendar.fullyear.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
           base: ""
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
@@ -45,6 +48,7 @@ jobs:
         with:
           filename: metrics.plugin.languages.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
           base: ""
           commits_authoring: Devaaldo, Devaaldo@users.noreply.github.com
           plugin_languages: yes
@@ -65,6 +69,7 @@ jobs:
         with:
           filename: metrics.plugin.notable.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
           base: ""
           plugin_notable: yes
           plugin_notable_repositories: yes
@@ -76,6 +81,7 @@ jobs:
         with:
           filename: metrics.plugin.achievements.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
           base: ""
           plugin_achievements: yes
           plugin_achievements_display: detailed
@@ -88,6 +94,7 @@ jobs:
         with:
           filename: metrics.plugin.habits.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
           base: ""
           plugin_habits: yes
           plugin_habits_facts: yes
@@ -101,6 +108,7 @@ jobs:
         with:
           filename: metrics.plugin.activity.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
           base: ""
           plugin_activity: yes
           plugin_activity_limit: 5
