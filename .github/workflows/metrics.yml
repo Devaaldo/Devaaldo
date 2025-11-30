@@ -1,32 +1,35 @@
-name: GitHub Metrics
+name: Metrics
 on:
-  schedule:
-    - cron: "0 0 * * *" # Runs daily at midnight
+  # Schedule hourly updates
+  schedule: [{cron: "0 * * * *"}]
+  # (optional) Run workflow manually
   workflow_dispatch:
-  push:
-    branches:
-      - main
-
+  # (optional) Run workflow when pushing on master/main
+  push: {branches: ["master", "main"]}
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
-      # Classic metrics
-      - name: Classic
-        uses: lowlighter/metrics@latest
+      - uses: lowlighter/metrics@latest
         with:
           filename: metrics.classic.svg
           token: ${{ secrets.METRICS_TOKEN }}
+
+          user: Devaaldo
+          template: classic
           base: header, activity, community, repositories, metadata
-          plugin_lines: yes
-          plugin_lines_history_limit: 1
-          plugin_lines_repositories_limit: 4
-          plugin_lines_sections: base
           config_timezone: Asia/Jakarta
 
-      # Isocalendar (Full year calendar)
+          plugin_traffic: yes
+          plugin_gists: yes
+          plugin_lines: yes
+          plugin_lines_history_limit: 3
+          plugin_lines_delay: 30
+          plugin_lines_repositories_limit: 10
+          plugin_lines_sections: base, repositories
+
       - name: Full-year calendar
         uses: lowlighter/metrics@latest
         with:
@@ -37,22 +40,26 @@ jobs:
           plugin_isocalendar_duration: full-year
           config_timezone: Asia/Jakarta
 
-      # Language activity
-      - name: Most used languages
+      - name: Most used
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.languages.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
+          commits_authoring: Devaaldo, Devaaldo@users.noreply.github.com
           plugin_languages: yes
-          plugin_languages_ignored: html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell, gnuplot
-          plugin_languages_details: bytes-size, percentage
-          plugin_languages_sections: most-used
+          plugin_languages_limit: 24
+          plugin_languages_threshold: 0%
           plugin_languages_colors: github
-          plugin_languages_limit: 8
-          config_timezone: Asia/Jakarta
+          plugin_languages_sections: most-used
+          plugin_languages_details: bytes-size, percentage, lines
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_analysis_timeout_repositories: 7.5
+          plugin_languages_categories: markup, programming
+          plugin_languages_recent_categories: markup, programming
+          plugin_languages_recent_load: 300
+          plugin_languages_recent_days: 14
 
-      # Notable contributions
       - name: Notable contributions
         uses: lowlighter/metrics@latest
         with:
@@ -64,7 +71,6 @@ jobs:
           plugin_notable_indepth: yes
           config_timezone: Asia/Jakarta
 
-      # Achievements
       - name: Achievements
         uses: lowlighter/metrics@latest
         with:
@@ -77,7 +83,6 @@ jobs:
           plugin_achievements_threshold: C
           config_timezone: Asia/Jakarta
 
-      # Habits (coding habits)
       - name: Coding habits
         uses: lowlighter/metrics@latest
         with:
@@ -91,7 +96,6 @@ jobs:
           plugin_habits_from: 200
           config_timezone: Asia/Jakarta
 
-      # Recent activity
       - name: Recent activity
         uses: lowlighter/metrics@latest
         with:
@@ -104,38 +108,3 @@ jobs:
           plugin_activity_filter: all
           plugin_activity_visibility: all
           config_timezone: Asia/Jakarta
-
-      # Code snippet of the day
-      - name: Code snippet
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.code.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_code: yes
-          plugin_code_languages: python, javascript, typescript, php
-          plugin_code_load: 400
-          config_timezone: Asia/Jakarta
-
-      # Commit generated metrics
-      - name: Commit metrics
-        run: |
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add *.svg
-          git diff --staged --quiet || git commit -m "Update GitHub metrics"
-          git push
-
-      # WakaTime (if you use WakaTime)
-      # Uncomment and add WAKATIME_TOKEN to your secrets
-      # - name: WakaTime
-      #   uses: lowlighter/metrics@latest
-      #   with:
-      #     filename: metrics.plugin.wakatime.svg
-      #     token: ${{ secrets.METRICS_TOKEN }}
-      #     base: ""
-      #     plugin_wakatime: yes
-      #     plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
-      #     plugin_wakatime_days: 7
-      #     plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
-      #     config_timezone: Asia/Jakarta
