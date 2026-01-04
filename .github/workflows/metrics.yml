@@ -116,3 +116,25 @@ jobs:
           plugin_activity_filter: all
           plugin_activity_visibility: all
           config_timezone: Asia/Jakarta
+      
+      - name: Recently starred repositories
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.stars.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          base: ""
+          plugin_stars: yes
+          plugin_stars_limit: 6
+          config_timezone: Asia/Jakarta
+
+
+      - name: LeetCode
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.leetcode.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_leetcode_user: devaaldo
+          plugin_leetcode: yes
+          plugin_leetcode_sections: solved, skills
