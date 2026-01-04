@@ -9,7 +9,7 @@
 ---
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/22107794/139580686-887df369-edb8-4bc8-b607-4fbf6d7e4866.gif" width="400"/>
+  <img src="https://user-images.githubusercontent.com/22107794/139580686-887df369-edb8-4bc8-b607-4fbf6d7e4866.gif" width="800"/>
 </div>
 
 ---
@@ -103,9 +103,10 @@ print(me.life_motto())
 ---
 <div align="center">
 <h3 align="left"><img width="30" height="30" src="https://www.freepnglogos.com/uploads/discord-logo-png/discord-logo-logodownload-download-logotipos-1.png" alt="Discord Logo"/> Discord Presence</h3>
-
-[![Discord Presence](https://lanyard.cnrad.dev/api/619892255355830292?idleMessage=Maybe%20he%27s%20making%20some%20stuff!)](https://discord.com/users/619892255355830292)
+<a href="https://discord.com/users/619892255355830292">
+    <img src="https://lanyard.kyrie25.dev/api/619892255355830292?animatedDecoration=true&showDisplayName=false&theme=dark&showBanner=animated&imgStyle=square&gradient=E21B22-F71746-F23D92-CA3AB0-9138A7-69208E&hideDecoration=false&animated=true" alt="Discord" />
 </div>
+  
 ---
 
 
