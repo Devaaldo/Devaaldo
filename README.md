@@ -41,10 +41,6 @@ print(me.life_motto())
 
 ## 📈 GitHub Analytics
 
-<!--
-OPTIONAL: Advanced GitHub Metrics (requires setup - see METRICS_SETUP.md)
-Uncomment the section below after setting up GitHub Actions workflow
-
 <div align="center">
   <table>
     <tr>
@@ -69,18 +65,6 @@ Uncomment the section below after setting up GitHub Actions workflow
       </td>
     </tr>
   </table>
-</div>
-
-OR use the simple stats below (current setup):
--->
-
-<div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Devaaldo&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Devaaldo&theme=tokyonight&hide_border=true" />
-</div>
-
-<div align="center">
-  <img width="70%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Devaaldo&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
 </div>
 
 ---
@@ -117,11 +101,11 @@ OR use the simple stats below (current setup):
 </div>
 
 ---
-
+<div align="center">
 <h3 align="left"><img width="30" height="30" src="https://www.freepnglogos.com/uploads/discord-logo-png/discord-logo-logodownload-download-logotipos-1.png" alt="Discord Logo"/> Discord Presence</h3>
 
 [![Discord Presence](https://lanyard.cnrad.dev/api/619892255355830292?idleMessage=Maybe%20he%27s%20making%20some%20stuff!)](https://discord.com/users/619892255355830292)
-
+</div>
 ---
 
 
