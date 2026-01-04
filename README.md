@@ -58,10 +58,10 @@ print(me.life_motto())
     </tr>
     <tr>
       <td>
-        <img src="./metrics.plugin.habits.svg" alt="Coding Habits" />
+        <img src="./metrics.plugin.stars.svg" alt="stars" />
       </td>
       <td>
-        <img src="./metrics.plugin.achievements.svg" alt="Achievements" />
+        <img src="./metrics.plugin.leetcode.svg" alt="leetcode" />
       </td>
     </tr>
   </table>
