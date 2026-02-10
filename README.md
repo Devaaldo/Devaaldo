@@ -24,7 +24,7 @@ class Developer:
         self.location = "Yogyakarta, Indonesia"
         self.education = "Undergraduate Informatics Student"
         self.university = "Jenderal Achmad Yani University of Yogyakarta"
-        self.interests = ["AI Engineering", "Backend Development", "Machine Learning", "Problem Solving"]
+        self.interests = ["AI/ML Engineer", "Data Scientist", "Backend Developer"]
         self.learning_philosophy = "Always curious, always growing"
 
     def current_focus(self):
