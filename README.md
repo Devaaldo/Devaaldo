@@ -28,7 +28,7 @@ class Developer:
         self.learning_philosophy = "Always curious, always growing"
 
     def current_focus(self):
-        return ["AI Engineering", "Backend Development", "LLM Applications", "Scalable Systems"]
+        return "Machine Learning Enthusiat"
 
     def life_motto(self):
         return "Don't wait to be chosen, be the chosen one."
