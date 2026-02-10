@@ -1,4 +1,4 @@
-# 👋 Hello World! I'm Akbar Pradana
+# Hello World! I'm Akbar Pradana
 
 <div align="center">
 
@@ -14,7 +14,7 @@
 
 ---
 
-## 🚀 About Me
+## About Me
 
 ```python
 class Developer:
@@ -39,7 +39,7 @@ print(me.life_motto())
 
 ---
 
-## 📈 GitHub Analytics
+## GitHub Analytics
 
 <div align="center">
   <table>
@@ -69,7 +69,7 @@ print(me.life_motto())
 
 ---
 
-## 🐍 Contribution Snake
+## Contribution Snake
 
 <div align="center">
   
@@ -79,7 +79,7 @@ print(me.life_motto())
 
 ---
 
-## 📫 Let's Connect!
+## Let's Connect!
 
 <div align="center">
 
@@ -92,7 +92,7 @@ print(me.life_motto())
 
 ---
 
-## 📈 Activity Graph
+## Activity Graph
 
 <div align="center">
   
@@ -110,7 +110,7 @@ print(me.life_motto())
 ---
 
 
-## 💰 Support My Work
+## Support My Work
 
 <div align="center">
   
@@ -123,7 +123,7 @@ print(me.life_motto())
 
 <div align="center">
   
-### 💫 Thanks for visiting! Leave a ⭐ if you like my profile!
+### Thanks for visiting! Leave a ⭐ if you like my profile!
 
 ![Visitor Count](https://komarev.com/ghpvc/?username=Devaaldo&style=for-the-badge&color=0e75b6)
 
