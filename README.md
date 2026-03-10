@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=AI/ML+Engineer;Data+Scientist;Backend+Developer;)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=AI/ML+Engineer;Data+Scientist;)](https://git.io/typing-svg)
 
 </div>
 
@@ -24,11 +24,11 @@ class Developer:
         self.location = "Yogyakarta, Indonesia"
         self.education = "Undergraduate Informatics Student"
         self.university = "Jenderal Achmad Yani University of Yogyakarta"
-        self.interests = ["AI/ML Engineer", "Data Scientist", "Backend Developer"]
+        self.interests = ["AI/ML Engineer", "Data Scientist"]
         self.learning_philosophy = "Always curious, always growing"
 
     def current_focus(self):
-        return "Machine Learning Enthusiast"
+        return "Machine Learning Engineer"
 
     def life_motto(self):
         return "Don't wait to be chosen, be the chosen one."
