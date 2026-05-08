@@ -14,31 +14,6 @@
 
 ---
 
-## About Me
-
-```python
-class Developer:
-    def __init__(self):
-        self.name = "Muhammad Akbar Pradana"
-        self.alias = ["Akbar", "Devaaldo"]
-        self.location = "Yogyakarta, Indonesia"
-        self.education = "Undergraduate Informatics Student"
-        self.university = "Jenderal Achmad Yani University of Yogyakarta"
-        self.interests = ["AI/ML Engineer", "Data Scientist"]
-        self.learning_philosophy = "Always curious, always growing"
-
-    def current_focus(self):
-        return "Machine Learning Engineer"
-
-    def life_motto(self):
-        return "Don't wait to be chosen, be the chosen one."
-
-me = Developer()
-print(me.life_motto())
-```
-
----
-
 ## GitHub Analytics
 
 <div align="center">
@@ -79,47 +54,10 @@ print(me.life_motto())
 
 ---
 
-## Let's Connect!
-
 <div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/akbarprdna/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:akbarprdn2512@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.akbarprdna.my.id/)
-[![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/619892255355830292)
-
-</div>
-
----
-
-## Activity Graph
-
-<div align="center">
-  
-[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Devaaldo&theme=tokyo-night&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
-</div>
-
----
-
-<div align="center">
-<h3 align="left"><img width="30" height="30" src="https://www.freepnglogos.com/uploads/discord-logo-png/discord-logo-logodownload-download-logotipos-1.png" alt="Discord Logo"/> Discord Presence</h3>
+<h3 align="left"> Discord Presence</h3>
 <a href="https://discord.com/users/619892255355830292">
     <img src="https://lanyard.kyrie25.dev/api/619892255355830292?animatedDecoration=true&showDisplayName=false&theme=dark&showBanner=animated&imgStyle=square&gradient=E21B22-F71746-F23D92-CA3AB0-9138A7-69208E&hideDecoration=false&animated=true" alt="Discord" />
 </div>
   
 ---
-
-<div align="center">
-  
-### Thanks for visiting! Leave a ⭐ if you like my profile!
-
-![Visitor Count](https://komarev.com/ghpvc/?username=Devaaldo&style=for-the-badge&color=0e75b6)
-
-</div>
-
----
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
-</div>
