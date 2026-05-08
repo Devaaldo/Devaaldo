@@ -56,7 +56,7 @@ jobs:
           plugin_languages_colors: github
           plugin_languages_sections: most-used
           plugin_languages_details: bytes-size, percentage, lines
-          plugin_languages_categories: markup, programming
+          plugin_languages_categories: markup, programming, data
 
       - name: Coding habits
         uses: lowlighter/metrics@latest
