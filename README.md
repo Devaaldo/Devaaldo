@@ -54,10 +54,11 @@
 
 ---
 
+
 <div align="center">
 <h3 align="left"> Discord Presence</h3>
-<a href="https://discord.com/users/619892255355830292">
+#<a href="https://discord.com/users/619892255355830292">
     <img src="https://lanyard.kyrie25.dev/api/619892255355830292?animatedDecoration=true&showDisplayName=false&theme=dark&showBanner=animated&imgStyle=square&gradient=E21B22-F71746-F23D92-CA3AB0-9138A7-69208E&hideDecoration=false&animated=true" alt="Discord" />
 </div>
-  
+
 ---
