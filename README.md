@@ -36,17 +36,6 @@
 
 ---
 
-## Contribution Snake
-
-<div align="center">
-  
-![snake gif](https://raw.githubusercontent.com/devaaldo/devaaldo/output/github-contribution-grid-snake-dark.svg)
-
-</div>
-
----
-
-
 <div align="center">
 <h3 align="left"> Discord Presence</h3>
 <a href="https://discord.com/users/619892255355830292">
