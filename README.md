@@ -1,11 +1,3 @@
-# Hello World! I'm Akbar Pradana
-
-<div align="center">
-
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Data+Scientist;AI/ML+Engineer;)](https://git.io/typing-svg)
-
-</div>
-
 ---
 
 <div align="center">
